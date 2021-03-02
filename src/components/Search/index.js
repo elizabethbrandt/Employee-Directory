@@ -1,3 +1,5 @@
+import "./style.css"
+
 function Search(props) {
     return (
         <form className="form-inline my-2 my-lg-0">
@@ -6,7 +8,6 @@ function Search(props) {
             value={props.search}
             onChange={props.handleSearch}
             />
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
        </form>
     )
 }
