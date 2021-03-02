@@ -1,3 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowsAltV } from '@fortawesome/free-solid-svg-icons'
+
+const arrows = <FontAwesomeIcon icon={faArrowsAltV} />
+
 function Table(props) {
 
     return (
@@ -5,7 +10,7 @@ function Table(props) {
             <thead>
                 <tr>
                     <th scope="col">Photo</th>
-                    <th scope="col" onClick={props.handleSort}>First Name</th>
+                    <th scope="col" onClick={props.handleSort}>First Name    {arrows}</th>
                     <th scope="col">Last Name</th>
                     <th scope="col">Phone Number</th>
                     <th scope="col">Email</th>
