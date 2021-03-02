@@ -35,7 +35,7 @@ React, JSX, RandomUser API
 
 * Sort ascending and descending by first name.
 
-![pending](assets/images/pending.png)
+![pending](assets/images/employee-directory.png)
 
 * Demo
 
